@@ -4,30 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MainActivity"
-    android:background="@drawable/icy"
->
+    tools:context=".Activity2"
+    android:background="@drawable/secret">
 
     <Button
         android:id="@+id/btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/white"
-        android:text="Let's Write"
-        android:textColor="#F3CDDA"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:visibility="visible"
+        android:background="@drawable/circle"
+        android:text="+"
+
+        android:textSize="50sp"
         android:elevation="80dp"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintHorizontal_bias="0.866"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.832">
+        app:layout_constraintVertical_bias="0.932">
+
+        >
 
     </Button>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
