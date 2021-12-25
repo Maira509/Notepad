@@ -35,12 +35,7 @@ public class page extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(page.this, Activity2.class);
-                LayoutParams lparams = new LayoutParams(
-                        LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
-                TextView tv=new TextView(this);
-                tv.setLayoutParams(lparams);
-                tv.setText("test");
-                this.m_vwJokeLayout.addView(tv);
+
                 startActivity(intent);
             }
         });
